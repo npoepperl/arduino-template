@@ -2,10 +2,12 @@
 #define ARDUINO 100
 #endif
 
-#include "../../libraries/LedControl/src/LedControl.h"
+// #include "../../libraries/LedControl/src/LedControl.h"
 
 
 class Board{
+
+public:
     Board();
-    ~Board();
-}
+    virtual ~Board();
+};
