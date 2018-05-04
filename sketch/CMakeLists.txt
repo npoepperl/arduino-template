@@ -1,0 +1,11 @@
+# CMakeLists.txt Sketch global
+
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(MyProject)
+
+SET(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+# Add further Libraries here
+ADD_SUBDIRECTORY(GameOfLife)
+ADD_SUBDIRECTORY(test)
