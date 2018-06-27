@@ -35,7 +35,8 @@
                 "/usr/include/x86_64-linux-gnu",
                 "/usr/include",
                 "${workspaceFolder}/arduino/hardware/tools/avr/avr/include",
-                "${workspaceFolder}/sketch/libraries/LedControl/src"
+                "${workspaceFolder}/sketch/libraries/LedControl/src",
+                "${workspaceFolder}/sketch/GameOfLife/include"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
@@ -79,5 +80,5 @@
             }
         }
     ],
-    "version": 3
+    "version": 4
 }

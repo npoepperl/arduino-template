@@ -1,4 +1,5 @@
 #include "gtest/gtest.h"
+#include "Board.h"
 
 class BoardTests : public ::testing::Test {
 
@@ -10,6 +11,9 @@ protected:
     virtual ~BoardTests(){
 
     }
+
+private:
+    Board* board;
 };
 
 
