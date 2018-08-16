@@ -36,7 +36,7 @@
                 "/usr/include",
                 "${workspaceFolder}/arduino/hardware/tools/avr/avr/include",
                 "${workspaceFolder}/sketch/libraries/LedControl/src",
-                "${workspaceFolder}/sketch/GameOfLife/include"
+                "${workspaceFolder}/sketch/Roti/include"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",

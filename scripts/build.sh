@@ -52,7 +52,7 @@ if [ -d $sketchDir ]; then
     if [ $test == "yes" ]; then
         echo "Tests will be executed."
         # add all testrunners here - path is relative from build directory
-        ./test/testGameOfLife/testGameOfLife
+        ./test/testRoti/testRoti
     fi
 fi
 

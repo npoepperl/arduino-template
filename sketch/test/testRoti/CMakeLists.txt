@@ -1,6 +1,6 @@
-# CMakeLists.txt GameOfLife Testrunner
+# CMakeLists.txt Roti Testrunner
 
-SET(MODULE_NAME testGameOfLife)
+SET(MODULE_NAME testRoti)
 
 # The following code is copied from http://kaizou.org/2014/11/gtest-cmake/
 # Thanks to Kaizou's blogpost I made my first successful steps with CMake
@@ -55,6 +55,6 @@ file(GLOB MODULE_SOURCECES
 ADD_EXECUTABLE(${MODULE_NAME} ${MODULE_SOURCECES})
     
 TARGET_LINK_LIBRARIES(${MODULE_NAME}
-    GameOfLife
+    Roti
     libgtest
     libgmock)

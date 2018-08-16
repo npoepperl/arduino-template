@@ -1,6 +1,6 @@
-# CMakeLists.txt GameOfLife
+# CMakeLists.txt Roti
 
-SET(MODULE_NAME GameOfLife)
+SET(MODULE_NAME Roti)
 
 file(GLOB_RECURSE MODULE_SOURCECES
     "*.h"
